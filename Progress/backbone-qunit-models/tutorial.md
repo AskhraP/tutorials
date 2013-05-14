@@ -16,12 +16,13 @@ To get started, let's create the appropriate directory structure for our Backbon
 
 My app's directory structure is as follows:
 
-app/
-	/src
-		/app.js
-	/tests
-		/tests.js
-		/index.html
+* app/
+** /src
+*** /app.js
+** /tests
+*** /js
+**** /tests.js
+*** /index.html
 
 # Create Your Backbone.js Model
 This tutorial is going to focus on testing your app's Backbone models. Before we write our unit tests, we need some Backbone model code. I'm going to create a model representing an address book contact with some default attributes. My app.js code in the app/src directory is as follows:
@@ -130,6 +131,8 @@ Running the QUnit test that we just defined is easy. Simply open the index.html 
 
 Once you open your index.html file you should see that the three tests we defined earlier did pass successfully. You can click on the test to expand the assertion results. The result should look like the following image:
 
+![First Test Results](https://raw.github.com/KevinTCoughlin/tutorials/master/Progress/backbone-qunit-models/images/first_tests.png)
+
 Now let's edit one of our assertions in our tests.js to see what a failure would look like. I have changed my tests.js to the following:
 
 ```js
@@ -151,6 +154,7 @@ test("Can be instantiated with correct default values", function() {
 
 Now run the QUnit test again by reloading the page or clicking the "rerun" link next to the test. You should be presented with one fail and the page should look like the following image:
 
+![Test Results with an Error](https://raw.github.com/KevinTCoughlin/tutorials/master/Progress/backbone-qunit-models/images/error_tests.png)
 
 # Testing Our Model One Step Further
 
@@ -195,6 +199,7 @@ In the new test, I am creating an object extended from our Contact Backbone Mode
 
 Once you have added this code to your tests.js rerun the QUnit tests by reloading the page. You should be presented with the following image:
 
+![Second Test Results](https://raw.github.com/KevinTCoughlin/tutorials/master/Progress/backbone-qunit-models/images/second_tests.png)
 
 # Conclusion
 
