@@ -1,0 +1,2039 @@
+[
+    {
+        "created_at": "Mon May 13 18:29:07 +0000 2013",
+        "id": 334012446039744500,
+        "id_str": "334012446039744512",
+        "text": "We have deprecated HTTP 1.0 support for the Streaming API: https://t.co/JfieFem8Kf",
+        "source": "web",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 6253282,
+            "id_str": "6253282",
+            "name": "Twitter API",
+            "screen_name": "twitterapi",
+            "location": "San Francisco, CA",
+            "description": "The Real Twitter API. I tweet about API changes, service issues and happily answer questions about Twitter and our API. Don't get an answer? It's on my website.",
+            "url": "http://dev.twitter.com",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://dev.twitter.com",
+                            "expanded_url": null,
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1646791,
+            "friends_count": 34,
+            "listed_count": 11579,
+            "created_at": "Wed May 23 06:01:13 +0000 2007",
+            "favourites_count": 25,
+            "utc_offset": -28800,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 3422,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://a0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/6253282/1347394302",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": false,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 108,
+        "favorite_count": 37,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "url": "https://t.co/JfieFem8Kf",
+                    "expanded_url": "https://dev.twitter.com/blog/deprecating-http-1.0-streaming-api",
+                    "display_url": "dev.twitter.com/blog/deprecati…",
+                    "indices": [
+                        59,
+                        82
+                    ]
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri May 03 17:14:26 +0000 2013",
+        "id": 330369772619452400,
+        "id_str": "330369772619452416",
+        "text": "We're extending API v1 Retirement until June 11, 2013. https://t.co/Nb7PJrnZvx",
+        "source": "web",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 6253282,
+            "id_str": "6253282",
+            "name": "Twitter API",
+            "screen_name": "twitterapi",
+            "location": "San Francisco, CA",
+            "description": "The Real Twitter API. I tweet about API changes, service issues and happily answer questions about Twitter and our API. Don't get an answer? It's on my website.",
+            "url": "http://dev.twitter.com",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://dev.twitter.com",
+                            "expanded_url": null,
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1646791,
+            "friends_count": 34,
+            "listed_count": 11579,
+            "created_at": "Wed May 23 06:01:13 +0000 2007",
+            "favourites_count": 25,
+            "utc_offset": -28800,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 3422,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://a0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/6253282/1347394302",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": false,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 407,
+        "favorite_count": 80,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "url": "https://t.co/Nb7PJrnZvx",
+                    "expanded_url": "https://dev.twitter.com/blog/api-v1-retirement-date-extended-to-june-11",
+                    "display_url": "dev.twitter.com/blog/api-v1-re…",
+                    "indices": [
+                        55,
+                        78
+                    ]
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Thu May 02 15:03:11 +0000 2013",
+        "id": 329974356635697150,
+        "id_str": "329974356635697152",
+        "text": "New configuration options for Embedded Timelines: disable scrollbars, limit # of tweets, more control over loading: https://t.co/R15FIitZoI",
+        "source": "web",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 6253282,
+            "id_str": "6253282",
+            "name": "Twitter API",
+            "screen_name": "twitterapi",
+            "location": "San Francisco, CA",
+            "description": "The Real Twitter API. I tweet about API changes, service issues and happily answer questions about Twitter and our API. Don't get an answer? It's on my website.",
+            "url": "http://dev.twitter.com",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://dev.twitter.com",
+                            "expanded_url": null,
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1646791,
+            "friends_count": 34,
+            "listed_count": 11579,
+            "created_at": "Wed May 23 06:01:13 +0000 2007",
+            "favourites_count": 25,
+            "utc_offset": -28800,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 3422,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://a0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/6253282/1347394302",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": false,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 72,
+        "favorite_count": 45,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "url": "https://t.co/R15FIitZoI",
+                    "expanded_url": "https://dev.twitter.com/discussions/17276",
+                    "display_url": "dev.twitter.com/discussions/17…",
+                    "indices": [
+                        116,
+                        139
+                    ]
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Tue Apr 30 17:13:21 +0000 2013",
+        "id": 329282336812318700,
+        "id_str": "329282336812318720",
+        "text": "RT @TwitterEng: Summer of Code projects at Twitter span multiple programming languages &amp; open source communities. Read more: http://t.c…",
+        "source": "web",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 6253282,
+            "id_str": "6253282",
+            "name": "Twitter API",
+            "screen_name": "twitterapi",
+            "location": "San Francisco, CA",
+            "description": "The Real Twitter API. I tweet about API changes, service issues and happily answer questions about Twitter and our API. Don't get an answer? It's on my website.",
+            "url": "http://dev.twitter.com",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://dev.twitter.com",
+                            "expanded_url": null,
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1646791,
+            "friends_count": 34,
+            "listed_count": 11579,
+            "created_at": "Wed May 23 06:01:13 +0000 2007",
+            "favourites_count": 25,
+            "utc_offset": -28800,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 3422,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://a0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/6253282/1347394302",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": false,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Tue Apr 30 16:34:07 +0000 2013",
+            "id": 329272464674795500,
+            "id_str": "329272464674795520",
+            "text": "Summer of Code projects at Twitter span multiple programming languages &amp; open source communities. Read more: http://t.co/8o2xMlzMy4",
+            "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+            "truncated": false,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 6844292,
+                "id_str": "6844292",
+                "name": "Twitter Engineering",
+                "screen_name": "TwitterEng",
+                "location": "San Francisco, CA",
+                "description": "The official account for Twitter Engineering.",
+                "url": "http://t.co/oEmYlYDquC",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/oEmYlYDquC",
+                                "expanded_url": "http://engineering.twitter.com",
+                                "display_url": "engineering.twitter.com",
+                                "indices": [
+                                    0,
+                                    22
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 377969,
+                "friends_count": 0,
+                "listed_count": 2414,
+                "created_at": "Sat Jun 16 00:14:36 +0000 2007",
+                "favourites_count": 0,
+                "utc_offset": -28800,
+                "time_zone": "Pacific Time (US & Canada)",
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 158,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "profile_background_color": "C6E2EE",
+                "profile_background_image_url": "http://a0.twimg.com/images/themes/theme2/bg.gif",
+                "profile_background_image_url_https": "https://si0.twimg.com/images/themes/theme2/bg.gif",
+                "profile_background_tile": false,
+                "profile_image_url": "http://a0.twimg.com/profile_images/2284174594/apcu4c9tu2zkefnev0jt_normal.png",
+                "profile_image_url_https": "https://si0.twimg.com/profile_images/2284174594/apcu4c9tu2zkefnev0jt_normal.png",
+                "profile_link_color": "1F98C7",
+                "profile_sidebar_border_color": "C6E2EE",
+                "profile_sidebar_fill_color": "DAECF4",
+                "profile_text_color": "663B12",
+                "profile_use_background_image": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": null,
+                "follow_request_sent": false,
+                "notifications": null
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "retweet_count": 51,
+            "favorite_count": 46,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [
+                    {
+                        "url": "http://t.co/8o2xMlzMy4",
+                        "expanded_url": "http://engineering.twitter.com/2013/04/students-apply-now-for-summer-of-code.html",
+                        "display_url": "engineering.twitter.com/2013/04/studen…",
+                        "indices": [
+                            113,
+                            135
+                        ]
+                    }
+                ],
+                "user_mentions": []
+            },
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "retweet_count": 51,
+        "favorite_count": 0,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": [
+                {
+                    "screen_name": "TwitterEng",
+                    "name": "Twitter Engineering",
+                    "id": 6844292,
+                    "id_str": "6844292",
+                    "indices": [
+                        3,
+                        14
+                    ]
+                }
+            ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Mon Apr 29 22:19:31 +0000 2013",
+        "id": 328996997635911700,
+        "id_str": "328996997635911680",
+        "text": "Please welcome Craig Wright (@c_r_w) to the @twitterapi team. Not sure he knows what he's in for, but too late now! :)",
+        "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 6253282,
+            "id_str": "6253282",
+            "name": "Twitter API",
+            "screen_name": "twitterapi",
+            "location": "San Francisco, CA",
+            "description": "The Real Twitter API. I tweet about API changes, service issues and happily answer questions about Twitter and our API. Don't get an answer? It's on my website.",
+            "url": "http://dev.twitter.com",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://dev.twitter.com",
+                            "expanded_url": null,
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1646791,
+            "friends_count": 34,
+            "listed_count": 11579,
+            "created_at": "Wed May 23 06:01:13 +0000 2007",
+            "favourites_count": 25,
+            "utc_offset": -28800,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 3422,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://a0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/6253282/1347394302",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": false,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 24,
+        "favorite_count": 21,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": [
+                {
+                    "screen_name": "c_r_w",
+                    "name": "Craig Wright",
+                    "id": 7318222,
+                    "id_str": "7318222",
+                    "indices": [
+                        29,
+                        35
+                    ]
+                },
+                {
+                    "screen_name": "twitterapi",
+                    "name": "Twitter API",
+                    "id": 6253282,
+                    "id_str": "6253282",
+                    "indices": [
+                        44,
+                        55
+                    ]
+                }
+            ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Tue Apr 23 17:09:08 +0000 2013",
+        "id": 326744560661299200,
+        "id_str": "326744560661299201",
+        "text": "A @twitterapi Recap of the First Quarter of 2013 https://t.co/tUO3efCB1O",
+        "source": "web",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 6253282,
+            "id_str": "6253282",
+            "name": "Twitter API",
+            "screen_name": "twitterapi",
+            "location": "San Francisco, CA",
+            "description": "The Real Twitter API. I tweet about API changes, service issues and happily answer questions about Twitter and our API. Don't get an answer? It's on my website.",
+            "url": "http://dev.twitter.com",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://dev.twitter.com",
+                            "expanded_url": null,
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1646791,
+            "friends_count": 34,
+            "listed_count": 11579,
+            "created_at": "Wed May 23 06:01:13 +0000 2007",
+            "favourites_count": 25,
+            "utc_offset": -28800,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 3422,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://a0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/6253282/1347394302",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": false,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 58,
+        "favorite_count": 45,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "url": "https://t.co/tUO3efCB1O",
+                    "expanded_url": "https://dev.twitter.com/blog/recap-first-quarter-2013",
+                    "display_url": "dev.twitter.com/blog/recap-fir…",
+                    "indices": [
+                        49,
+                        72
+                    ]
+                }
+            ],
+            "user_mentions": [
+                {
+                    "screen_name": "twitterapi",
+                    "name": "Twitter API",
+                    "id": 6253282,
+                    "id_str": "6253282",
+                    "indices": [
+                        2,
+                        13
+                    ]
+                }
+            ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Apr 19 18:05:57 +0000 2013",
+        "id": 325309305693814800,
+        "id_str": "325309305693814785",
+        "text": "A Twitter for Websites update - \ndeprecating IE6 and IE7 support: https://t.co/EQtcVnON0A",
+        "source": "web",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 6253282,
+            "id_str": "6253282",
+            "name": "Twitter API",
+            "screen_name": "twitterapi",
+            "location": "San Francisco, CA",
+            "description": "The Real Twitter API. I tweet about API changes, service issues and happily answer questions about Twitter and our API. Don't get an answer? It's on my website.",
+            "url": "http://dev.twitter.com",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://dev.twitter.com",
+                            "expanded_url": null,
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1646791,
+            "friends_count": 34,
+            "listed_count": 11579,
+            "created_at": "Wed May 23 06:01:13 +0000 2007",
+            "favourites_count": 25,
+            "utc_offset": -28800,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 3422,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://a0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/6253282/1347394302",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": false,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 324,
+        "favorite_count": 86,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "url": "https://t.co/EQtcVnON0A",
+                    "expanded_url": "https://dev.twitter.com/blog/tfw-ie6-ie7-support",
+                    "display_url": "dev.twitter.com/blog/tfw-ie6-i…",
+                    "indices": [
+                        66,
+                        89
+                    ]
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Tue Apr 16 23:30:28 +0000 2013",
+        "id": 324303810472316900,
+        "id_str": "324303810472316928",
+        "text": "We're wrapping blackout testing for today. Requests to API v1 will resume full fidelity soon. Detail: https://t.co/4h1nOIJYJ4",
+        "source": "web",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 6253282,
+            "id_str": "6253282",
+            "name": "Twitter API",
+            "screen_name": "twitterapi",
+            "location": "San Francisco, CA",
+            "description": "The Real Twitter API. I tweet about API changes, service issues and happily answer questions about Twitter and our API. Don't get an answer? It's on my website.",
+            "url": "http://dev.twitter.com",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://dev.twitter.com",
+                            "expanded_url": null,
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1646791,
+            "friends_count": 34,
+            "listed_count": 11579,
+            "created_at": "Wed May 23 06:01:13 +0000 2007",
+            "favourites_count": 25,
+            "utc_offset": -28800,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 3422,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://a0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/6253282/1347394302",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": false,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 99,
+        "favorite_count": 29,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "url": "https://t.co/4h1nOIJYJ4",
+                    "expanded_url": "https://dev.twitter.com/blog/api-v1-retirement-final-dates",
+                    "display_url": "dev.twitter.com/blog/api-v1-re…",
+                    "indices": [
+                        102,
+                        125
+                    ]
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Tue Apr 16 23:07:38 +0000 2013",
+        "id": 324298063151775740,
+        "id_str": "324298063151775744",
+        "text": "Blackout Testing has begun. A gradually increasing number of API v1 calls will be responded to with HTTP 410 Gone. https://t.co/4h1nOIJYJ4",
+        "source": "web",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 6253282,
+            "id_str": "6253282",
+            "name": "Twitter API",
+            "screen_name": "twitterapi",
+            "location": "San Francisco, CA",
+            "description": "The Real Twitter API. I tweet about API changes, service issues and happily answer questions about Twitter and our API. Don't get an answer? It's on my website.",
+            "url": "http://dev.twitter.com",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://dev.twitter.com",
+                            "expanded_url": null,
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1646791,
+            "friends_count": 34,
+            "listed_count": 11579,
+            "created_at": "Wed May 23 06:01:13 +0000 2007",
+            "favourites_count": 25,
+            "utc_offset": -28800,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 3422,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://a0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/6253282/1347394302",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": false,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 106,
+        "favorite_count": 24,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "url": "https://t.co/4h1nOIJYJ4",
+                    "expanded_url": "https://dev.twitter.com/blog/api-v1-retirement-final-dates",
+                    "display_url": "dev.twitter.com/blog/api-v1-re…",
+                    "indices": [
+                        115,
+                        138
+                    ]
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Tue Apr 16 22:57:06 +0000 2013",
+        "id": 324295416071995400,
+        "id_str": "324295416071995393",
+        "text": "API v1 blackout testing will gradually begin in ten minutes or so. More information: https://t.co/4h1nOIJYJ4",
+        "source": "web",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 6253282,
+            "id_str": "6253282",
+            "name": "Twitter API",
+            "screen_name": "twitterapi",
+            "location": "San Francisco, CA",
+            "description": "The Real Twitter API. I tweet about API changes, service issues and happily answer questions about Twitter and our API. Don't get an answer? It's on my website.",
+            "url": "http://dev.twitter.com",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://dev.twitter.com",
+                            "expanded_url": null,
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1646791,
+            "friends_count": 34,
+            "listed_count": 11579,
+            "created_at": "Wed May 23 06:01:13 +0000 2007",
+            "favourites_count": 25,
+            "utc_offset": -28800,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 3422,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://a0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/6253282/1347394302",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": false,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 81,
+        "favorite_count": 20,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "url": "https://t.co/4h1nOIJYJ4",
+                    "expanded_url": "https://dev.twitter.com/blog/api-v1-retirement-final-dates",
+                    "display_url": "dev.twitter.com/blog/api-v1-re…",
+                    "indices": [
+                        85,
+                        108
+                    ]
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Tue Apr 16 00:29:46 +0000 2013",
+        "id": 323956348020740100,
+        "id_str": "323956348020740098",
+        "text": "Reminder: API v1 Blackout Testing continues on Tuesday, April 16 2013 beginning at 23:00 UTC (4:00pm PDT)  https://t.co/4h1nOIJYJ4",
+        "source": "web",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 6253282,
+            "id_str": "6253282",
+            "name": "Twitter API",
+            "screen_name": "twitterapi",
+            "location": "San Francisco, CA",
+            "description": "The Real Twitter API. I tweet about API changes, service issues and happily answer questions about Twitter and our API. Don't get an answer? It's on my website.",
+            "url": "http://dev.twitter.com",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://dev.twitter.com",
+                            "expanded_url": null,
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1646791,
+            "friends_count": 34,
+            "listed_count": 11579,
+            "created_at": "Wed May 23 06:01:13 +0000 2007",
+            "favourites_count": 25,
+            "utc_offset": -28800,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 3422,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://a0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/6253282/1347394302",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": false,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 130,
+        "favorite_count": 25,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "url": "https://t.co/4h1nOIJYJ4",
+                    "expanded_url": "https://dev.twitter.com/blog/api-v1-retirement-final-dates",
+                    "display_url": "dev.twitter.com/blog/api-v1-re…",
+                    "indices": [
+                        107,
+                        130
+                    ]
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Apr 12 17:42:03 +0000 2013",
+        "id": 322766575876833300,
+        "id_str": "322766575876833280",
+        "text": "Announcing new symbols entities for Tweets: https://t.co/RJDIKmj7zw",
+        "source": "web",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 6253282,
+            "id_str": "6253282",
+            "name": "Twitter API",
+            "screen_name": "twitterapi",
+            "location": "San Francisco, CA",
+            "description": "The Real Twitter API. I tweet about API changes, service issues and happily answer questions about Twitter and our API. Don't get an answer? It's on my website.",
+            "url": "http://dev.twitter.com",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://dev.twitter.com",
+                            "expanded_url": null,
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1646791,
+            "friends_count": 34,
+            "listed_count": 11579,
+            "created_at": "Wed May 23 06:01:13 +0000 2007",
+            "favourites_count": 25,
+            "utc_offset": -28800,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 3422,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://a0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/6253282/1347394302",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": false,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 65,
+        "favorite_count": 58,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "url": "https://t.co/RJDIKmj7zw",
+                    "expanded_url": "https://dev.twitter.com/blog/symbols-entities-tweets",
+                    "display_url": "dev.twitter.com/blog/symbols-e…",
+                    "indices": [
+                        44,
+                        67
+                    ]
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Apr 05 01:07:35 +0000 2013",
+        "id": 319979596386816000,
+        "id_str": "319979596386816001",
+        "text": "Requirements for OAuth 1.0A spec compliance tightened. Always use explicit callbacks &amp; verifiers. Discussion: https://t.co/W8OpCeUgrH",
+        "source": "web",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 6253282,
+            "id_str": "6253282",
+            "name": "Twitter API",
+            "screen_name": "twitterapi",
+            "location": "San Francisco, CA",
+            "description": "The Real Twitter API. I tweet about API changes, service issues and happily answer questions about Twitter and our API. Don't get an answer? It's on my website.",
+            "url": "http://dev.twitter.com",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://dev.twitter.com",
+                            "expanded_url": null,
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1646791,
+            "friends_count": 34,
+            "listed_count": 11579,
+            "created_at": "Wed May 23 06:01:13 +0000 2007",
+            "favourites_count": 25,
+            "utc_offset": -28800,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 3422,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://a0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/6253282/1347394302",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": false,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 92,
+        "favorite_count": 44,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "url": "https://t.co/W8OpCeUgrH",
+                    "expanded_url": "https://dev.twitter.com/discussions/16443",
+                    "display_url": "dev.twitter.com/discussions/16…",
+                    "indices": [
+                        114,
+                        137
+                    ]
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Wed Apr 03 02:25:27 +0000 2013",
+        "id": 319274418973073400,
+        "id_str": "319274418973073408",
+        "text": "Deep linking in mobile applications and new kinds of Twitter Cards https://t.co/NodgYxqElO ^TS",
+        "source": "web",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 6253282,
+            "id_str": "6253282",
+            "name": "Twitter API",
+            "screen_name": "twitterapi",
+            "location": "San Francisco, CA",
+            "description": "The Real Twitter API. I tweet about API changes, service issues and happily answer questions about Twitter and our API. Don't get an answer? It's on my website.",
+            "url": "http://dev.twitter.com",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://dev.twitter.com",
+                            "expanded_url": null,
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1646791,
+            "friends_count": 34,
+            "listed_count": 11579,
+            "created_at": "Wed May 23 06:01:13 +0000 2007",
+            "favourites_count": 25,
+            "utc_offset": -28800,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 3422,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://a0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/6253282/1347394302",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": false,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 132,
+        "favorite_count": 83,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "url": "https://t.co/NodgYxqElO",
+                    "expanded_url": "https://dev.twitter.com/blog/mobile-app-deep-linking-and-new-cards",
+                    "display_url": "dev.twitter.com/blog/mobile-ap…",
+                    "indices": [
+                        67,
+                        90
+                    ]
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Mar 29 21:25:34 +0000 2013",
+        "id": 317749398366990340,
+        "id_str": "317749398366990337",
+        "text": "API v1's retirement will occur on May 7th, 2013. Additional blackout testing on April 16. More details: https://t.co/4h1nOIJYJ4 ^TS",
+        "source": "web",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 6253282,
+            "id_str": "6253282",
+            "name": "Twitter API",
+            "screen_name": "twitterapi",
+            "location": "San Francisco, CA",
+            "description": "The Real Twitter API. I tweet about API changes, service issues and happily answer questions about Twitter and our API. Don't get an answer? It's on my website.",
+            "url": "http://dev.twitter.com",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://dev.twitter.com",
+                            "expanded_url": null,
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1646791,
+            "friends_count": 34,
+            "listed_count": 11579,
+            "created_at": "Wed May 23 06:01:13 +0000 2007",
+            "favourites_count": 25,
+            "utc_offset": -28800,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 3422,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://a0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/6253282/1347394302",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": false,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 405,
+        "favorite_count": 137,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "url": "https://t.co/4h1nOIJYJ4",
+                    "expanded_url": "https://dev.twitter.com/blog/api-v1-retirement-final-dates",
+                    "display_url": "dev.twitter.com/blog/api-v1-re…",
+                    "indices": [
+                        104,
+                        127
+                    ]
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Mar 29 19:22:59 +0000 2013",
+        "id": 317718547965046800,
+        "id_str": "317718547965046784",
+        "text": "Announcing a new lists/ownerships method in 1.1: https://t.co/WSNP67jR2e ^ARK",
+        "source": "web",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 6253282,
+            "id_str": "6253282",
+            "name": "Twitter API",
+            "screen_name": "twitterapi",
+            "location": "San Francisco, CA",
+            "description": "The Real Twitter API. I tweet about API changes, service issues and happily answer questions about Twitter and our API. Don't get an answer? It's on my website.",
+            "url": "http://dev.twitter.com",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://dev.twitter.com",
+                            "expanded_url": null,
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1646791,
+            "friends_count": 34,
+            "listed_count": 11579,
+            "created_at": "Wed May 23 06:01:13 +0000 2007",
+            "favourites_count": 25,
+            "utc_offset": -28800,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 3422,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://a0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/6253282/1347394302",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": false,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 51,
+        "favorite_count": 46,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "url": "https://t.co/WSNP67jR2e",
+                    "expanded_url": "https://dev.twitter.com/docs/api/1.1/get/lists/ownerships",
+                    "display_url": "dev.twitter.com/docs/api/1.1/g…",
+                    "indices": [
+                        49,
+                        72
+                    ]
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Wed Mar 27 01:19:47 +0000 2013",
+        "id": 316721175038406660,
+        "id_str": "316721175038406658",
+        "text": "In case you didn't know, we have an official account tweeting about Twitter developer topics in Japanese: @TwitterDevJP",
+        "source": "web",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 6253282,
+            "id_str": "6253282",
+            "name": "Twitter API",
+            "screen_name": "twitterapi",
+            "location": "San Francisco, CA",
+            "description": "The Real Twitter API. I tweet about API changes, service issues and happily answer questions about Twitter and our API. Don't get an answer? It's on my website.",
+            "url": "http://dev.twitter.com",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://dev.twitter.com",
+                            "expanded_url": null,
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1646791,
+            "friends_count": 34,
+            "listed_count": 11579,
+            "created_at": "Wed May 23 06:01:13 +0000 2007",
+            "favourites_count": 25,
+            "utc_offset": -28800,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 3422,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://a0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/6253282/1347394302",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": false,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 35,
+        "favorite_count": 24,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": [
+                {
+                    "screen_name": "TwitterDevJP",
+                    "name": "TwitterDevJP",
+                    "id": 70915829,
+                    "id_str": "70915829",
+                    "indices": [
+                        106,
+                        119
+                    ]
+                }
+            ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Tue Mar 26 22:28:16 +0000 2013",
+        "id": 316678013091725300,
+        "id_str": "316678013091725313",
+        "text": "The lang attr is now on Streaming &amp; REST as announced in https://t.co/zdgxk4kTx9 Also, the language filter is enabled for Streaming ^ARK",
+        "source": "web",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 6253282,
+            "id_str": "6253282",
+            "name": "Twitter API",
+            "screen_name": "twitterapi",
+            "location": "San Francisco, CA",
+            "description": "The Real Twitter API. I tweet about API changes, service issues and happily answer questions about Twitter and our API. Don't get an answer? It's on my website.",
+            "url": "http://dev.twitter.com",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://dev.twitter.com",
+                            "expanded_url": null,
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1646791,
+            "friends_count": 34,
+            "listed_count": 11579,
+            "created_at": "Wed May 23 06:01:13 +0000 2007",
+            "favourites_count": 25,
+            "utc_offset": -28800,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 3422,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://a0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/6253282/1347394302",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": false,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 52,
+        "favorite_count": 41,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "url": "https://t.co/zdgxk4kTx9",
+                    "expanded_url": "https://dev.twitter.com/blog/introducing-new-metadata-for-tweets",
+                    "display_url": "dev.twitter.com/blog/introduci…",
+                    "indices": [
+                        61,
+                        84
+                    ]
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Tue Mar 26 19:56:25 +0000 2013",
+        "id": 316639797437399040,
+        "id_str": "316639797437399040",
+        "text": "Embedded Timelines update: Simplified configuration, better dev environment support, &amp; more customization options https://t.co/4dYIxcXcbP",
+        "source": "web",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 6253282,
+            "id_str": "6253282",
+            "name": "Twitter API",
+            "screen_name": "twitterapi",
+            "location": "San Francisco, CA",
+            "description": "The Real Twitter API. I tweet about API changes, service issues and happily answer questions about Twitter and our API. Don't get an answer? It's on my website.",
+            "url": "http://dev.twitter.com",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://dev.twitter.com",
+                            "expanded_url": null,
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1646791,
+            "friends_count": 34,
+            "listed_count": 11579,
+            "created_at": "Wed May 23 06:01:13 +0000 2007",
+            "favourites_count": 25,
+            "utc_offset": -28800,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 3422,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://a0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/6253282/1347394302",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": false,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 46,
+        "favorite_count": 42,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "url": "https://t.co/4dYIxcXcbP",
+                    "expanded_url": "https://dev.twitter.com/docs/embedded-timelines",
+                    "display_url": "dev.twitter.com/docs/embedded-…",
+                    "indices": [
+                        118,
+                        141
+                    ]
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Mon Mar 25 20:00:49 +0000 2013",
+        "id": 316278518994591740,
+        "id_str": "316278518994591746",
+        "text": "Please join us at Twitter HQ on 4/2 for a special platform event, where we'll be discussing new features: https://t.co/IKC4pMuMxa  ^JC",
+        "source": "web",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 6253282,
+            "id_str": "6253282",
+            "name": "Twitter API",
+            "screen_name": "twitterapi",
+            "location": "San Francisco, CA",
+            "description": "The Real Twitter API. I tweet about API changes, service issues and happily answer questions about Twitter and our API. Don't get an answer? It's on my website.",
+            "url": "http://dev.twitter.com",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://dev.twitter.com",
+                            "expanded_url": null,
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1646791,
+            "friends_count": 34,
+            "listed_count": 11579,
+            "created_at": "Wed May 23 06:01:13 +0000 2007",
+            "favourites_count": 25,
+            "utc_offset": -28800,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 3422,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/656927849/miyt9dpjz77sc0w3d4vj.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://a0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/6253282/1347394302",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": false,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 85,
+        "favorite_count": 29,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "url": "https://t.co/IKC4pMuMxa",
+                    "expanded_url": "https://dev.twitter.com/form/twitter-platform-event",
+                    "display_url": "dev.twitter.com/form/twitter-p…",
+                    "indices": [
+                        106,
+                        129
+                    ]
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    }
+]
