@@ -13,7 +13,7 @@
 
 QUnit is a JavaScript Unit Testing Framework originally developed by John Resig that is now maintained by the jQuery team. It is a powerful JavaScript testing library and an alternative to other testing frameworks such as [Jasmine](http://pivotal.github.io/jasmine/) and [Mocha](http://visionmedia.github.io/mocha/).
 
-# Getting Started
+## Getting Started ##
 
 In this tutorial we will begin unit testing our Backbone Collecitons using QUnit. We will be building off of the app we began to create in the Backbone Models QUnit testing tutorial. #TODO If you have not viewed the previous tutorial and do not feel comfortable jumping into unit testing Backbone collections you may revisit the tutorial at the following link.
 
@@ -55,118 +55,66 @@ We will append our collection test cases to the original test.js file. Note that
 
     module( "ContactsCollection Backbone Collection Tests" );
 
-To do this we will write the following code:
+Before we begin writing test cases for our Contacts Collection, we will utilize QUnit's [module setup() and teardown()](http://api.qunitjs.com/module/) functions. The setup() function will execute before each test, conversely the teardown() function will run after each test. We will utilize these functions to instantiate, populate, and remove our Collection for each test case. This will ensure consistancy as our Collection will be created identically for each test and all objects used removed before another test is run.
 
-    module( "Contact Backbone Model Tests" );
-    test("Can be instantiated with correct default values", function() {
-        // Number of Assertions we Expect
-        expect( 3 );
+Before we code our setup() and teardown() functions, we must first modify our module function call to accept the setup() and teardown() callbacks as its second parameter.
 
-        // Instantiate Local Contact Backbone Model Object
-        var contact = new Contact();
+    // Contacts Collection Tests
+    module( "ContactsCollection Backbone Collection Tests", {
+        setup: function() {
+            
+        },
+        teardown: function() {
 
-        // Default Attribute Value Assertions
-        equal( contact.get("name"), "John Smith" );
-        equal( contact.get("email"), "example@domain.com" );
-        equal( contact.get("telephone"), "555-555-5555" );
+        }
     });
 
-In this code block we are first declaring using the expect() QUnit call that QUnit should expect three assertions to be run in this test. There are 3 equals assertion calls defined in this test that test our three default values for our Contact model. We then create a local variable from the Contact Backbone Model and name it "contact".
+Now that our module has the appropriate callbacks, let's begin by creating our Contacts Collection in our module's setup() function in tests.js.
 
-Lastly, we write three assertions that get each attribute key and check its value against the value we have provided. If they are equal then it means are object is created and the defaults are what we expect and the assertion will pass. We can also define a String to be returned. The following code demonstrates this:
+    // Contacts Collection Tests
+    module( "ContactsCollection Backbone Collection Tests", {
+        // Run before each test
+        setup: function() {
+            // Instantiate and Populate Contacts Collection
+            this.contacts = new ContactsCollection;
+            this.contacts.add(new Contact());
+            this.contacts.add(new Contact());
+        },
+        // Run after each test
+        teardown: function() {
 
-    module( "Contact Backbone Model Tests" );
-    test("Can be instantiated with correct default values", function() {
-        // Number of Assertions we Expect
-        expect( 3 );
-
-        // Instantiate Local Contact Backbone Model Object
-        var contact = new Contact();
-
-        // Default Attribute Value Assertions
-        equal( contact.get("name"), "John Smith", "Default name should equal 'John Smith'" );
-        equal( contact.get("email"), "example@domain.com", "Default email should equal 'example@domain.com'" );
-        equal( contact.get("telephone"), "555-555-5555", "Default telephone should equal '555-555-5555'" );
-
+        }
     });
 
-The third parameter in each equal assertion is the message that QUnit will print to the page. This is sometimes helpful in understanding your assertion without reviewing the test's code.
+Here we have instantiated our Contacts Collection that will use our model Contact as its model and assigned it to the scope of the test that is run. We then populate the collection with two new Contact models that use the default attribute values as no parameters were passed at creation time.
 
-Now that we have our test code written we can run it for the first time.
+Before we write our test case, let's also write our teardown() code.
+
+    // Contacts Collection Tests
+    module( "ContactsCollection Backbone Collection Tests", {
+        // Run before each test
+        setup: function() {
+            // Instantiate and Populate Contacts Collection
+            this.contacts = new ContactsCollection;
+            this.contacts.add(new Contact());
+            this.contacts.add(new Contact());
+        },
+        // Run after each test
+        teardown: function() {
+            // Clear Window of errors after test
+            window.errors = null;
+        }
+    });
+
+Here we are simply clearing the Browser's windows of any errors after each test is run.
+
+Now that our setup() and teardown() functions have been created, we can write our first unit test for our new Collection.
 
 ## Running Your QUnit Tests ##
 
-Running the QUnit test that we just defined is easy. Simply open the index.html file in the app/tests folder in your browser either locally or via a local HTTP server. Note that it might be useful to have your Browser's developers console open when viewing your test results.
-
-Once you open your index.html file you should see that the three tests we defined earlier did pass successfully. You can click on the test to expand the assertion results. The result should look like the following image:
-
-
-![First QUnit Test Results](http://media.tumblr.com/4a371f56646efb6a0d1b289270c6a43d/tumblr_inline_mmrs6di6ju1qz4rgp.png)
-
-Now let's edit one of our assertions in our tests.js to see what a failure would look like. I have changed my tests.js to the following:
-
-    module( "Contact Backbone Model Tests" );
-    test("Can be instantiated with correct default values", function() {
-        // Number of Assertions we Expect
-        expect( 3 );
-
-        // Instantiate Local Contact Backbone Model Object
-        var contact = new Contact();
-
-        // Default Attribute Value Assertions
-        equal( contact.get("name"), "Wrong Name", "Default Name Correct!" );      // Expected Name String has been changed to be incorrect
-        equal( contact.get("email"), "example@domain.com", "Default Email Correct!" );
-        equal( contact.get("telephone"), "555-555-5555", "Default Telephone Correct!" );
-    });
-
-Now run the QUnit test again by reloading the page or clicking the "rerun" link next to the test. You should be presented with one fail and the page should look like the following image:
-
-![Test Results with Error](http://media.tumblr.com/666c5baa27f41e13edf7701c7dc0f4f9/tumblr_inline_mmrs7wLtbZ1qz4rgp.png)
-
-# Testing Our Model One Step Further
-
-Now that we have more of an understanding of QUnit as it relates to testing our Backbone.js code. Let's add another test for our Contact Model.
-
-In this test I am going to change the values for the model's attributes and test that the changes did occur and return the correct results. I have changed my tests.js code to the following:
-
-    module( "Contact Backbone Model Tests" );
-    test("Can be instantiated with correct default values", function() {
-        // Number of Assertions we Expect
-        expect( 3 );
-
-        // Instantiate Local Contact Backbone Model Object
-        var contact = new Contact();
-
-        // Default Attribute Value Assertions
-        equal( contact.get("name"), "John Smith", "Default Name Correct!" );        // FIXED
-        equal( contact.get("email"), "example@domain.com", "Default Email Correct!" );
-        equal( contact.get("telephone"), "555-555-5555", "Default Telephone Correct!" );
-    });
-    test("Can be instantiated and attribute values changed", function() {
-        // Number of Assertions expected
-        expect( 3 );
-
-        // Instantiate Local Contact Backbone Model Object with Attr. Values
-        var contact = new Contact({ 
-            name        : "Kevin Coughlin",
-            email       : "me@kevintcoughlin.com",
-            telephone   : "222-222-2222"
-        });
-
-        // Changed Attribute Value Assertions
-        equal( contact.get("name"), "Kevin Coughlin", "Name Correct!" );
-        equal( contact.get("email"), "me@kevintcoughlin.com", "Email Correct!" );
-        equal( contact.get("telephone"), "222-222-2222", "Telephone Correct!" );
-    });
-
-In the new test, I am creating an object extended from our Contact Backbone Model object. However, I am passing the attribute values I wish for the object to have when it is created. I then have three assertions to test whether the changes were made as it should return the correct Strings that I expect. IMPORTANT: I corrected the test code that I made incorrect earlier so that everything would pass successfully.
-
-Once you have added this code to your tests.js rerun the QUnit tests by reloading the page. You should be presented with the following image:
-
-![Second QUnit Tests](http://media.tumblr.com/2b9a31ba8f230e37e003a9da160be0b9/tumblr_inline_mmrs8vR6oW1qz4rgp.png)
+## Testing Our Collection One Step Further ##
 
 ## Conclusion ##
-
 
 ## Further Reading ##
 
