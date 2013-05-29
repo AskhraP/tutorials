@@ -4,6 +4,7 @@
  *
  */
 
+// Top level UI Component
 var AppView = new Backbone.View.extend({
 
 	el: "body",
@@ -18,6 +19,7 @@ var AppView = new Backbone.View.extend({
 
 });
 
+// Nerdist Podcast Episode Data Model
 var Episode = new Backbone.Model.extend({
 
 	// Episode Defaults
@@ -30,6 +32,7 @@ var Episode = new Backbone.Model.extend({
 
 });
 
+// Collection of Episodes
 var Episodes = new Backbone.Collection.extend({
 
 	model: Episode,
@@ -38,6 +41,7 @@ var Episodes = new Backbone.Collection.extend({
 
 });
 
+// Individual Episode Model View
 var EpisodeView = new Backbone.View.extend({
 
 	li: "li",
@@ -52,6 +56,7 @@ var EpisodeView = new Backbone.View.extend({
 
 });
 
+// Collection of Episodes View
 var EpisodeListView = new Backbone.View.extend({
 
 	li: "ul",
@@ -66,6 +71,17 @@ var EpisodeListView = new Backbone.View.extend({
 
 });
 
+// Application's Router
 var AppRouter = new Backbone.Router.extend({
 
+	routes: {
+		//"search/:query":        "search",
+		//"search/:query/p:page": "search"
+	},
+
+	// Search Podcast Episodes Handler
+	search: function(query, page) {
+
+	}
+	
 });
