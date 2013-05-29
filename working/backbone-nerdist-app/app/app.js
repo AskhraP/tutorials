@@ -11,6 +11,9 @@ var AppView = Backbone.View.extend({
 
 	initialize: function() {
 		console.debug("AppView Init");
+
+		var episodes = new Episodes().fetch();
+
 	},
 
 	render: function() {
@@ -37,7 +40,32 @@ var Episodes = Backbone.Collection.extend({
 
 	model: Episode,
 
-	url: ""
+	url: "http://nerdist.libsyn.com/rss",
+
+	// Extend Parse Function to Parse XML
+    parse: function (data) {
+        var parsed = [];
+
+        $( data ).find( 'item' ).each( function ( item ) {
+
+            var episodeTitle = $(this).find( "title" ).text();
+            console.debug(episodeTitle);
+
+            parsed.push({
+            	title: bookTitle
+            });
+
+        });
+
+        return parsed;
+    },
+
+    // Extend Fetch function to request XML
+    fetch: function (options) {
+        options = options || {};
+        options.dataType = "xml";
+        Backbone.Collection.prototype.fetch.call(this, options);
+    }
 
 });
 
