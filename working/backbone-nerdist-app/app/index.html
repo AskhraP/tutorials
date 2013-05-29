@@ -16,8 +16,30 @@
 
 		}
 	</style>
+
+	<script>
+		$( document ).ready( function() {
+
+			var appView = new AppView();
+
+		});
+	</script>
 </head>
 <body>
+
+	<script type="text/html" id="tpl-episode-view">
+
+	</script>
+	<script type="text/html" id="tpl-episodelist-view">
+
+	</script>
+	<script type="text/html" id="tpl-mediacontrols-view">
+		<ul>
+			<li>Rewind</li>
+			<li>Play</li>
+			<li>Forward</li>
+		</ul>
+	</script>
 
 	<script type="text/javascript">
 
@@ -80,7 +102,7 @@
 			render: function() {
 				console.debug("EpisodeListView Render");
 			}
-			
+
 		});
 
 		var AppRouter = new Backbone.Router.extend({
