@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Nerdist Web Player</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+
+	<script src="http://code.jquery.com/jquery-1.10.0.js"></script>
+	<script src="http://underscorejs.org/underscore.js"></script>
+	<script src="http://backbonejs.org/backbone.js"></script>
+
+	<style>
+		body {
+
+		}
+	</style>
+</head>
+<body>
+
+	<script type="text/javascript">
+
+		var AppView = new Backbone.View.extend({
+
+			el: "body",
+
+			initialize: function() {
+				console.debug("AppView Init");
+			},
+
+			render: function() {
+				console.debug("AppView Render");
+			}
+
+		});
+
+		var Episode = new Backbone.Model.extend({
+
+			// Episode Defaults
+			defaults: {
+				title: "Episode Title",
+				description: "Default Description",
+				duration: "1:12:32",
+				played: false
+			}
+
+		});
+
+		var Episodes = new Backbone.Collection.extend({
+
+			model: Episode,
+
+			url: ""
+
+		});
+
+		var EpisodeView = new Backbone.View.extend({
+
+			li: "li",
+
+			initialize: function() {
+				console.debug("EpisodeView Init");
+			},
+
+			render: function() {
+				console.debug("EpisodeView Render");
+			}
+
+		});
+
+		var EpisodeListView = new Backbone.View.extend({
+
+			li: "ul",
+
+			initialize: function() {
+				console.debug("EpisodeListView Init");
+			},
+
+			render: function() {
+				console.debug("EpisodeListView Render");
+			}
+			
+		});
+
+		var AppRouter = new Backbone.Router.extend({
+
+		});
+
+	</script>
+</body>
+</html>
