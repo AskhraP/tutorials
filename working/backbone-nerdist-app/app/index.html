@@ -10,7 +10,8 @@
 	<script src="http://code.jquery.com/jquery-1.10.0.js"></script>
 	<script src="http://underscorejs.org/underscore.js"></script>
 	<script src="http://backbonejs.org/backbone.js"></script>
-
+	<script src="app.js"></script>
+	
 	<style>
 		body {
 
@@ -41,74 +42,5 @@
 		</ul>
 	</script>
 
-	<script type="text/javascript">
-
-		var AppView = new Backbone.View.extend({
-
-			el: "body",
-
-			initialize: function() {
-				console.debug("AppView Init");
-			},
-
-			render: function() {
-				console.debug("AppView Render");
-			}
-
-		});
-
-		var Episode = new Backbone.Model.extend({
-
-			// Episode Defaults
-			defaults: {
-				title: "Episode Title",
-				description: "Default Description",
-				duration: "1:12:32",
-				played: false
-			}
-
-		});
-
-		var Episodes = new Backbone.Collection.extend({
-
-			model: Episode,
-
-			url: ""
-
-		});
-
-		var EpisodeView = new Backbone.View.extend({
-
-			li: "li",
-
-			initialize: function() {
-				console.debug("EpisodeView Init");
-			},
-
-			render: function() {
-				console.debug("EpisodeView Render");
-			}
-
-		});
-
-		var EpisodeListView = new Backbone.View.extend({
-
-			li: "ul",
-
-			initialize: function() {
-				console.debug("EpisodeListView Init");
-			},
-
-			render: function() {
-				console.debug("EpisodeListView Render");
-			}
-
-		});
-
-		var AppRouter = new Backbone.Router.extend({
-
-		});
-
-	</script>
 </body>
 </html>
