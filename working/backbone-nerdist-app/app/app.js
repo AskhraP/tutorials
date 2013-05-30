@@ -65,13 +65,16 @@ var Episodes = Backbone.Collection.extend({
 var EpisodeView = Backbone.View.extend({
 
 	li: "li",
+	template: "#tpl-episode-view",
 
 	initialize: function() {
 		console.debug("EpisodeView Init");
+		this.template = _.template( $(this.template).html() );
 	},
 
 	render: function() {
 		console.debug("EpisodeView Render");
+		return this;
 	}
 
 });
@@ -83,7 +86,8 @@ var EpisodeListView = Backbone.View.extend({
 
 	// Add Episode to List
 	addEpisode: function( model ){
-		
+		this.episodeView = new EpisodeView( model );
+		this.$el.append( this.episodeView.render().el );
 	},
 
 	initialize: function() {
@@ -96,6 +100,7 @@ var EpisodeListView = Backbone.View.extend({
 
 	render: function() {
 		console.debug("EpisodeListView Render");
+
 	}
 
 });
@@ -123,11 +128,12 @@ var AppView = Backbone.View.extend({
 	initialize: function() {
 		console.debug("AppView Init");
 
-		var episodeListView = new EpisodeListView({ collection: new Episodes() })
+		this.episodeListView = new EpisodeListView({ collection: new Episodes() })
 	},
 
 	render: function() {
 		console.debug("AppView Render");
+		this.$el.append( this.episodeListView );
 	}
 
 });
