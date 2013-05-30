@@ -4,24 +4,6 @@
  *
  */
 
-// Top level UI Component
-var AppView = Backbone.View.extend({
-
-	el: "body",
-
-	initialize: function() {
-		console.debug("AppView Init");
-
-		var episodes = new Episodes().fetch();
-
-	},
-
-	render: function() {
-		console.debug("AppView Render");
-	}
-
-});
-
 // Nerdist Podcast Episode Data Model
 var Episode = Backbone.Model.extend({
 
@@ -99,8 +81,17 @@ var EpisodeListView = Backbone.View.extend({
 
 	li: "ul",
 
+	// Add Episode to List
+	addEpisode: function( model ){
+		
+	},
+
 	initialize: function() {
 		console.debug("EpisodeListView Init");
+
+		_.bindAll( this, 'addEpisode' );
+		this.collection.bind( "add" , this.addEpisode );
+		this.collection.fetch();
 	},
 
 	render: function() {
@@ -120,6 +111,23 @@ var AppRouter = Backbone.Router.extend({
 	// Search Podcast Episodes Handler
 	search: function(query, page) {
 
+	}
+
+});
+
+// Top level UI Component
+var AppView = Backbone.View.extend({
+
+	el: "body",
+
+	initialize: function() {
+		console.debug("AppView Init");
+
+		var episodeListView = new EpisodeListView({ collection: new Episodes() })
+	},
+
+	render: function() {
+		console.debug("AppView Render");
 	}
 
 });
