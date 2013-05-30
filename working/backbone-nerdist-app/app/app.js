@@ -28,8 +28,11 @@ var Episode = Backbone.Model.extend({
 	// Episode Defaults
 	defaults: {
 		title: "Episode Title",
+		pubDate: "Mon, 27 May 2013 08:02:09 +0000",
 		description: "Default Description",
-		duration: "1:12:32",
+		thumbnail: "http://assets.libsyn.com/item/2337782",
+		duration: "00:00",
+		url: "http://www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/nerdist/Nerdist_361_-_Seth_Rogen_and_Evan_Goldberg.mp3",
 		played: false
 	}
 
@@ -40,21 +43,28 @@ var Episodes = Backbone.Collection.extend({
 
 	model: Episode,
 
-	url: "http://nerdist.libsyn.com/rss",
+	url: "feed.xml",
 
 	// Extend Parse Function to Parse XML
     parse: function (data) {
+    	// Array to hold Episode objects
         var parsed = [];
 
         $( data ).find( 'item' ).each( function ( item ) {
+    		// Get Episode Attributes from XML
+    		this.episodeTitle 	= $(this).find( "title" ).text();
+    		this.pubDate 		= $(this).find( "pubDate" ).text();
+    		this.description 	= $(this).find( "description" ).text().replace(/<(?:.|\n)*?>/gm, '');
+			this.url 			= $(this).find( "enclosure" ).attr("url");
+    		//this.thumbnail	= $(this).find( "media\\:thumbnail" ).attr("url");
+    		//this.duration		= $(this).find( name="itunes\\:duration" );
 
-            var episodeTitle = $(this).find( "title" ).text();
-            console.debug(episodeTitle);
-
-            parsed.push({
-            	title: bookTitle
-            });
-
+	        parsed.push({
+				title 			: 	this.episodeTitle,
+				pubDate			: 	this.pubDate,
+				Description 	: 	this.description,
+				url 			: 	this.url
+	        });
         });
 
         return parsed;
