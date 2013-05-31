@@ -68,12 +68,10 @@ var EpisodeView = Backbone.View.extend({
 	template: "#tpl-episode-view",
 
 	initialize: function() {
-		console.debug("EpisodeView Init");
 		this.template = _.template( $(this.template).html() );
 	},
 
 	render: function() {
-		console.debug("EpisodeView Render");
 		return this;
 	}
 
@@ -123,17 +121,30 @@ var AppRouter = Backbone.Router.extend({
 // Top level UI Component
 var AppView = Backbone.View.extend({
 
-	el: "body",
+	el: "#app",
+
+	attributes: {
+		"id": "appview"
+	},
+
+	events: {
+		"click" : "clicked"
+	},
+
+	clicked: function(){
+		console.log("clicked");
+	},
 
 	initialize: function() {
 		console.debug("AppView Init");
-
 		this.episodeListView = new EpisodeListView({ collection: new Episodes() })
+		this.render();
 	},
 
 	render: function() {
 		console.debug("AppView Render");
 		this.$el.append( this.episodeListView );
+		return this;
 	}
 
 });

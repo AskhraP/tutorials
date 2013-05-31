@@ -1,54 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title>Nerdist Web Player</title>
+		<title>Nerdist Web Player</title>
 
-	<meta name="description" content="Nerdist Podcast Backbone.js Application">
-	<meta name=viewport content="width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=1.0">
+		<meta name="description" content="Nerdist Podcast Backbone.js Application">
+		<meta name=viewport content="width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=1.0">
 
-	<!-- Yahoo! Pure.css -->
-	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.1.0/pure-min.css">
+		<script src="libs/jquery-1.10.0.js"></script>
+		<script src="libs/underscore.js"></script>
+		<script src="libs/backbone.js"></script>
+		<script src="app.js"></script>
 
-	<script src="http://code.jquery.com/jquery-1.10.0.js"></script>
-	<script src="http://underscorejs.org/underscore.js"></script>
-	<script src="http://backbonejs.org/backbone.js"></script>
-	<script src="./app.js"></script>
+		<script>
+			$( document ).ready( function() {
 
-	<style>
-		body {
+				new AppView();
 
-		}
-	</style>
-</head>
-<body>
+			});
+		</script>
+	</head>
+	<body>
+		<script type="text/html" id="tpl-episode-view">
 
-	<script type="text/html" id="tpl-episode-view">
-
-	</script>
-
-	<script type="text/html" id="tpl-episodelist-view">
-
-	</script>
-
-	<script type="text/html" id="tpl-mediacontrols-view">
-		<ul>
-			<li>Rewind</li>
-			<li>Play</li>
-			<li>Forward</li>
-		</ul>
-	</script>
-
-	<script>
-		$( document ).ready( function() {
-			
-			// Create App
-			var appView = new AppView();
-
-		});
-	</script>
-
-</body>
+		</script>
+	</body>
 </html>
