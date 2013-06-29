@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>D3.js Context Menu Tutorial</title>
+  <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+</head>
+<body>
+
+  <script type="text/javascript">
+    var svgWidth = window.innerWidth
+     ,  svgHeight = window.innerHeight
+     ,  nodes = d3.range(200).map(function() { return { 
+          radius: Math.random() * 12 + 4, 
+          cx: Math.random() * svgWidth - 50 , 
+          cy: Math.random() * svgHeight - 50 } 
+        });
+
+      // SVG we will draw to
+      var svg = d3.select("body").append("svg")
+          .attr("width", svgWidth)
+          .attr("height", svgHeight);
+
+      // Append each circle in nodes to SVG
+      for (var i = 0; i < nodes.length; i++) {
+        svg.append("circle")
+           .attr("cx", nodes[i].cx)
+           .attr("cy", nodes[i].cy)
+           .attr("r", nodes[i].radius)
+           .attr("fill", function() { return "hsl(" + Math.random() * 360 + ", 100%, 75%)" })
+           .style("stroke", "black")
+           .style("stroke-width", 1);
+      }
+  </script>
+
+</body>
+</html>
